@@ -8,7 +8,7 @@ var persona = {
 persona.edad
 // asi traemos cada propiedad
 //la podemos volver funcion 
- Metodos 
+ //Metodos 
  var miAuto = {
     marca: "toyota",
     modelo: "corola",
