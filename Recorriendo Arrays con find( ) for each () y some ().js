@@ -11,4 +11,9 @@ var articulos = [
     //metodo find
     var encuentraArticulo = articulos.find(function(articulo){
         return articulo.nombre === "laptop"
-    });
+    });// trae toda la informacion de laptop
+
+// metodo foreach
+articulos.forEach(function(articulo){
+console.log(articulo.nombre);
+})// trae los nombres de los objetos que tengo dentro del array articulos 
