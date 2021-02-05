@@ -17,3 +17,9 @@ var articulos = [
 articulos.forEach(function(articulo){
 console.log(articulo.nombre);
 })// trae los nombres de los objetos que tengo dentro del array articulos 
+
+var articulosBaratos = articulos.some(function(articulo){
+    return articulo.costo <= 700
+}); 
+// esto devuelve un false o true 
+true
